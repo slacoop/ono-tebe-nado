@@ -1,1 +1,101 @@
 /* место для вашего кода */
+
+/* БЛОК header */
+
+.no_wrap {
+  white-space: nowrap;
+}
+
+address {
+  font-style: inherit;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 93px 49px 96px 51px;
+}
+
+.header_menu {
+  
+}
+
+.header_links-list {
+  display: flex;
+  align-items: center;
+  list-style: circle;
+  gap: 10px 34px;
+}
+
+.header_links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header_link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  text-underline-offset: 5px;
+  transition: text-underline-offset 0.3s ease;
+}
+
+.header_link_active {
+}
+
+.header_logo {
+  display: block; /* возможно можно убрать */
+  justify-self: center;
+  align-self: center;
+  margin-right: 85px;
+  /* width: 140px; */
+}
+
+.header_logo-image {
+  display: block; /* возможно можно убрать */
+  justify-self: center;
+  /* width: 148px; */
+  height: 105px;
+  
+}
+
+.header_address {
+  display: block; /* тест грида */
+  justify-self: center;
+  font-size: 18px;
+  line-height: 1.35;
+  margin-left: 26px;
+}
+
+.header_address_link {
+  display: block;
+  text-underline-position: under;
+}
+
+
+.info_style {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+
+.cover {
+}
+
+.lots {
+}
+
+.about {
+}
+
+.footer {
+}
+
+/*
+.header_links-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px 33px;
+  list-style: circle;
+}
+*/
