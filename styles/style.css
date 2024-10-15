@@ -1,6 +1,16 @@
 /* место для вашего кода */
 
-/* БЛОК header */
+/* универсальные классы */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
 
 .no_wrap {
   white-space: nowrap;
@@ -9,6 +19,8 @@
 address {
   font-style: inherit;
 }
+
+/* БЛОК header */
 
 .header {
   display: grid;
@@ -78,8 +90,82 @@ address {
   line-height: 1.35;
 }
 
+/* конец header */
+
+/* начало main */
 
 .cover {
+  position: relative;
+  z-index: 1;
+  padding: 173px 50px 50px 50px;
+  color: #fff;
+  background-color: #a7a7a7;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: center;
+}
+
+.cover_h1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-bottom: 135px;
+  font-size: 100px;
+  font-weight:700;
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.span_left {
+  text-align: left;
+}
+
+.span_center {
+  text-align: center;
+}
+
+.span_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+ letter-spacing: 60px;
+}
+
+.letter_spacing_none {
+  letter-spacing: normal;
+}
+
+.bottom_board {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.text_on_board {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 80px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.button {
+  border: 1px solid #ffffff;
+  color: inherit;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  padding: 12px 32px;
+  line-height: normal;
+  opacity: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  background: transparent;
+  transition: transform 0.3s ease;
 }
 
 .lots {
