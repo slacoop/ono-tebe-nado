@@ -7,7 +7,7 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background:rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .no_wrap {
@@ -27,10 +27,6 @@ address {
   padding: 93px 49px 96px 51px;
 }
 
-.header_menu {
-  
-}
-
 .header_links-list {
   display: flex;
   align-items: center;
@@ -43,14 +39,11 @@ address {
 }
 
 .header_link {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
   text-underline-offset: 5px;
-}
-
-.header_link_active {
 }
 
 .header_logo {
@@ -58,7 +51,7 @@ address {
   justify-self: center;
   align-self: center;
   width: 140px;
-  margin-right: 85px; 
+  margin-right: 85px;
 }
 
 .header_logo-image {
@@ -68,10 +61,10 @@ address {
 }
 
 .header_address {
-  display: block; 
+  display: block;
   justify-self: center;
   padding-left: 26px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.35;
 }
@@ -81,9 +74,8 @@ address {
   text-underline-position: under;
 }
 
-
 .info_style {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.35;
 }
@@ -102,16 +94,15 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
-.cover_h1 {
+.cover_title {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   margin-bottom: 135px;
-  font-family: url(../fonts/Raleway-Bold.woff);
-  font-weight:700;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 100px;
   line-height: 100%;
   letter-spacing: 30px;
@@ -131,7 +122,7 @@ address {
 }
 
 .letter-spacing-extended {
- letter-spacing: 60px;
+  letter-spacing: 60px;
 }
 
 .letter_spacing_none {
@@ -142,12 +133,11 @@ address {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 .text_on_board {
   margin-right: 80px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 127%;
@@ -161,7 +151,6 @@ address {
   padding: 12px 32px;
   opacity: 0px;
   color: inherit;
-  font-family: 'Raleway', sans-serif;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   line-height: normal;
@@ -182,7 +171,7 @@ address {
   margin-bottom: 24px;
   margin-left: 40px;
   color: #000;
-  font-family: url(../fonts/Raleway-Bold.woff);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 46.96px;
@@ -220,7 +209,7 @@ address {
 
 .card_title {
   color: #fff;
-  font-family: url(../fonts/Raleway-Bold.woff);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 26.4px;
@@ -231,7 +220,7 @@ address {
 .card_text {
   margin-top: auto;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -241,14 +230,12 @@ address {
   display: flex;
   justify-content: flex-start;
   padding: 29px 40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
   text-underline-offset: 5px;
 }
-
-
 
 .card_type_film,
 .card_type_book,
@@ -277,12 +264,11 @@ address {
   grid-template-columns: 1fr 3fr;
   column-gap: 24px;
   padding: 153px 70px 0 70px;
-  
 }
 
 .about_column {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-self: center;
   padding: 6px 50px 55px 50px;
 }
@@ -310,7 +296,7 @@ address {
 
 .about_text {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   gap: 24px;
   width: 688px;
   min-height: 120px;
@@ -323,22 +309,25 @@ address {
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 88px;
 }
 
 .footer_address_link {
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
+  text-underline-offset: 5px;
 }
 
 .address_footer {
-  display: block; 
+  display: block;
   justify-self: flex-start;
   padding-top: 125px;
   padding-left: 51px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.35;
+  max-width: 260px;
 }
 
 .footer_menu {
@@ -354,14 +343,6 @@ address {
   list-style: none;
 }
 
-.footer_menu_list_item {
-  
-}
-
-.footer_menu_link_active {
-
-}
-
 .footer_social_list {
   display: flex;
   justify-content: center;
@@ -371,13 +352,25 @@ address {
   list-style: none;
 }
 
-.footer_social_list_item {
-
-}
-.footer_social_link {
-
+.footer_social_icon {
+  width: 48px;
+  height: 48px;
 }
 
+/* Кладбище неиспользованных классов, нужно для того,
+для удобного поиска при сверке. */
+
+/* .header_link_active */
+
+/* .footer_social_list_item */
+
+/* .footer_social_link */
+
+/* .header_menu */
+
+/* .footer_menu_link_active */
+
+/* .footer_menu_list_item */
 
 /*
 .header_links-list-item {
